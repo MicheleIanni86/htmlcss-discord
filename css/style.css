@@ -3,13 +3,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+  font-family: sans-serif;}
 
 /* Header */
 
 .header {
   height: 80px;
-  background-color: #3161E0;
+  background-color: #255EE9;
 }
 
 .header > .container {
@@ -20,10 +20,10 @@
 }
 
 .header > .container > * {
-  width: 10%;
-    padding: 10px;
-    background-color: #3161E0;
-    height: 50px;
+  width: 15%;
+  padding: 10px;
+  background-color: #255EE9;
+  height: 50px;
 }
 
 .header > .container > .header__nav {
@@ -32,12 +32,14 @@
   flex-grow: 1;
   height: 50px;
   align-items: center;
-  gap: 65px;
+  gap: 40px;
 }
 
 .link {
   color: white;
   text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .header_button {
@@ -60,17 +62,59 @@
 /* First Wrapper */
 .first-wrapper{
   display: flex;
-  background-color: #00008B;
   justify-content: center;
+  max-width: 100%;
+  background-image: url(../img/jumbo.png);
+  background-size: contain;
+  background-repeat: round;
+}
+
+.container-first-box{
+  max-width: 100%;
 }
 
 .first-box-pink{
-  background-color: #EE82EE;
-  width: 65%;
+  text-align: center;
+  width: 100%;
   height: 390px;
   margin: 40px auto;
-  border: 1px dashed black;
 }
+
+h1{
+  color: white;
+  font-size: 55px;
+  margin-bottom: inherit;
+  padding-top: 56px
+}
+
+.paragraph-first-box {
+  color: white;
+  font-size: 20px;
+  line-height: 37px;
+  letter-spacing: -0.5px
+}
+
+.buttons_paragraph {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  font-size: large;
+}
+
+.button_scarica {
+  color: #23272A;
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 25px;
+}
+
+.button_open_discord {
+  color: white;
+  background-color: #23272A;
+  padding: 15px 30px;
+  border-radius: 25px;
+}
+
 
 /* Second Wrapper */
 .second-wrapper{
