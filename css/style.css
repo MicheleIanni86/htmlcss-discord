@@ -294,30 +294,56 @@ h1{
 .sixth-container{
   display: flex;
   width: 80%;
+  padding-top: 70px;
 }
 
-.sixth-box-pink{
-  background-color: #F08080;
+.sixth-box-plate{
   height: 390px;
   margin-top: 10px;
   margin-bottom: 40px;
-  border: 1px dashed black;
   flex-grow: 1;
 }
 
-.sixth-container-blu{
+.sixth-box-plate > h3{
+  color: #7289DA;
+  font-size: 30px;
+}
+
+.language > .flag{
+  width: 19px;
+  margin: 0 10px;
+  margin-left: 0;
+}
+
+.language {
+  margin: 20px 0;
+  color: white;
+}
+
+.social > img {
+  width: 25px;
+  margin: 0px 7px;
+  margin-left: 0;
+}
+
+.sixth-box-container{
   display: flex;
-  width: 25%;  
   margin-top: 10px;
   margin-bottom: 40px;
-  flex-grow: 1;
+  gap: 140px;
+  width: 60%;
 }
 
-.sixth-box-blu{
-  background-color: #20B2AA ;
-  width: 25%;
-  height: 390px;
-  border: 1px dashed white;
+ul{
+  color: #7289DA;
+}
+
+li {
+  list-style: none;
+  line-height: 30px;
+  font-size: 13px;
+  font-weight: bolder;
+  color: white;
 }
 
 hr{
