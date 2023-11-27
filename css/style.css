@@ -123,24 +123,33 @@ h1{
 
 .second-container{
   display: flex;
-  width: 80%;
+  width: 70%;
 }
 
-.second-box-blu{
-  background-color: #1E90FF;
+.second-box-img{
   width: 60%;
-  height: 390px;
   margin: 40px auto;
-  border: 1px dashed black;
 }
 
-.second-box-pink{
-  background-color: #FFC0CB;
+.second-box-text{
   width: 40%;
-  height: 390px;
   margin: 40px auto;
-  border: 1px dashed black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.second-box-text > h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.second-box-text > p {
+  line-height: 26px;
+  font-weight: 600;
+}
+
+
 
 /* Third Wrapper */
 .third-wrapper{
