@@ -50,12 +50,12 @@
 
 #button_accedi {
   background-color: white;
-    width: 80px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
+  width: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
 
 }
 
@@ -357,26 +357,39 @@ hr{
   background-color: #23272A;
   justify-content: center;
   align-items: center;
+  padding-bottom: 60px;
 }
 
 .footer-box{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #7FFFD4;
+  background-color: #23272A;
   width: 80%;
   height: 55px;
   margin-top: 10px;
+  border-top: 1px solid #7288D9;
+  padding-top: 50px;
 }
 
 .footer-logo{
-  background-color: #F08080;
-  border: 1px dashed black;
+  width: 50%;
+}
+
+.container-footer-button{
+  display: flex;
+  align-items: flex-end;
 }
 
 .footer-button{
-  background-color: #F08080;
-  border: 1px dashed black;
+  text-align: center;
+  color: white;
+  background-color: #8EA1E1;
+  padding: 8px 11px;
+  margin: 0 auto;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 13px;
 }
 
 
