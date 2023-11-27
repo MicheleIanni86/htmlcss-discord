@@ -225,18 +225,64 @@ h1{
 
 /* Fifth Wrapper */
 .fifth-wrapper{
+  background-color: #F6F6F6;
+  flex-direction: column;
   display: flex;
-  background-color: #D3D3D3;
   justify-content: center;
+  align-items: center;
+  padding-bottom: 130px;
 }
 
-.fifth-box-green{
-  background-color: #228B22;
+
+.fifth-box-text{
+  text-align: center;
   width: 80%;
-  height: 1000px;
-  margin: 40px auto;
-  border: 1px dashed black;
+  margin: 100px auto;
+  margin-bottom: 0px;
 }
+
+.fifth-box-text > h2{
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.fifth-box-text > p{
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.fifth-box-img{
+
+}
+
+.fifth-box-bottom{
+  background-image: url(../img/stars.svg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 25px;
+  width: 100%;
+  height: 52px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fifth-box-bottom > h3{
+  font-size: 27px;
+  font-weight: bolder;
+}
+
+
+.button_scarica_fifth{
+  width: max-content;
+  color: white;
+  background-color: #8EA1E1;
+  padding: 15px;
+  border-radius: 25px;
+
+}
+
 
 /* Sixth Wrapper */
 .sixth-wrapper{
