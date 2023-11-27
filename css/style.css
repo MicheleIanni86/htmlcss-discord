@@ -154,7 +154,7 @@ h1{
 /* Third Wrapper */
 .third-wrapper{
   display: flex;
-  background-color: #D3D3D3;
+  background-color: #F6F6F6;
   justify-content: center;
 }
 
@@ -163,21 +163,30 @@ h1{
   width: 80%;
 }
 
-.third-box-pink{
-  background-color: #FFC0CB;
+.third-box-text{
+  display: flex;
   width: 40%;
-  height: 390px;
   margin: 40px auto;
-  border: 1px dashed black;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
 }
 
-.third-box-blu{
-  background-color: #1E90FF;
-  width: 60%;
-  height: 390px;
-  margin: 40px auto;
-  border: 1px dashed black;
+.third-box-text > h2{
+  font-size: 40px;
+  margin-bottom: 15px;
 }
+
+.third-box-text > p{
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.third-box-img{
+  width: 60%;
+  margin: 40px auto;
+}
+
 
 /* Fourth Wrapper */
 .fourth-wrapper{
